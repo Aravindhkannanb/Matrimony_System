@@ -1,7 +1,4 @@
 from flask import Flask,render_template,redirect,url_for,request,session,flash
-from flask_mysqldb import MySQL
-import MySQLdb
-import re
 import json
 import firebase_admin
 from firebase_admin import credentials, initialize_app, storage,firestore
